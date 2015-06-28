@@ -1,0 +1,57 @@
+html, body, div, a{
+    margin: 0;
+    padding: 0;
+}
+html {
+    background-color: #4bb8f0;
+}
+#wrap {
+    width: 90%;
+    margin: 1% auto;
+    text-align: center;
+}
+
+.button{
+    padding: 0px 5%;
+    text-decoration: none;
+    border: 1px solid #a8a8a8;
+    font-size: 1.3em;
+    font-weight: bold;
+    border-radius: 20px;
+    background-color: palevioletred;
+    box-shadow: 2px 2px 15px 2px purple;
+    color: floralwhite;
+    text-transform: capitalize;
+}
+#button-dropdown{
+    margin-left: -7px;
+    height: 30px;
+    width: 30px;
+    border-radius: 0;
+}
+#input-section {
+    margin: 0;
+    border-radius: 0;
+}
+#holder {
+    border: 1px solid black;
+    width: 24%;
+    text-align: center;
+    padding:  10px;
+    margin: 1% 38% 1% 38%;
+}
+.person-name {
+    color: blue;
+    background: lightgray;
+}
+.person-item {
+    border-bottom: 1px solid gray;
+    width: 90%;
+    margin: 0 2%;
+    padding: 2%;
+    text-align: center;
+}
+img {
+    width: 100px;
+    height: 100px;
+}

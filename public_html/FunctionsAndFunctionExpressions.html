@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Functions And Function Expressions</title>
+        <link href="styles/functionExpression.css" rel="stylesheet" type="text/css"/>
+        <script src="scripts/FunctionsAndFunctionExpressions.js" type="text/javascript"></script>
+    </head>
+    <body>
+        <div id="container">
+            <a href="index.html" class="button">&Lsh; back</a>
+            <div id="button-container">
+                <button id="button-rect">Add new div moving in rectangle!</button>
+                <button id="button-circle">Add new div moving in circle!</button>
+                <button id="button-both">Add new divs to moving in circle and rectangle!</button>
+            </div>
+        </div>
+        <script>
+            document.getElementById('button-rect').addEventListener('click', function () {
+                return module.add('rect');
+            });
+            document.getElementById('button-circle').addEventListener('click', function () {
+                return module.add('circle');
+            });
+            document.getElementById('button-both').addEventListener('click', function () {
+                return module.add('rect') + module.add('circle');
+            });
+        </script>
+    </body>
+</html>

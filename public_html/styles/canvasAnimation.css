@@ -1,0 +1,18 @@
+.button {
+    position: absolute;
+    top: 15px;
+    left: 45%;
+    padding: 0px 5%;
+    text-decoration: none;
+    border: 1px solid #a8a8a8;
+    font-size: 1.3em;
+    font-weight: bold;
+    border-radius: 20px;
+    background-color: palevioletred;
+    box-shadow: 2px 2px 15px 2px purple;
+    color: floralwhite;
+    text-transform: capitalize;
+}
+#animation {
+    border: 1px solid black;
+}

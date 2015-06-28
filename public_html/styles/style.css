@@ -1,0 +1,44 @@
+html, body, div, a{
+    margin: 0;
+    padding: 0;
+}
+html {
+    background-color: #4bb8f0;
+}
+#wrap {
+    width: 90%;
+    margin: 10% auto;
+    text-align: center;
+}
+
+.button{
+    margin: 1% auto;
+    width: 45%;
+    text-decoration: none;
+    background-color: #9ee8fa;
+    border: 2px solid #f5f6ff;
+    border-radius: 20px;
+    color: darkblue;
+    padding: 1%;
+    text-transform: capitalize;
+    font-size: 2em;
+    font-weight: bold;
+    display: inline-block;
+    box-shadow: 4px 5px 6px blanchedalmond;
+    text-shadow: 3px 3px 3px burlywood;
+}
+.back-button {
+    padding: 0px 5%;
+    text-decoration: none;
+    border: 1px solid #a8a8a8;
+    font-size: 1.3em;
+    font-weight: bold;
+    border-radius: 20px;
+    background-color: palevioletred;
+    box-shadow: 2px 2px 15px 2px purple;
+    color: floralwhite;
+    text-transform: capitalize;
+    position: absolute;
+    top: 15px;
+    left: 45%;
+}

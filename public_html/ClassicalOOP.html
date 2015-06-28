@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Classical OOP</title>
+        <link href="styles/classicalOOP.css" rel="stylesheet" type="text/css"/>
+    </head>
+    <body>
+        <div id="container">  
+            <a href="index.html" class="button">&Lsh; back</a>
+            <div id="holder-rect">
+                <button id="create-rect">Click to create rectangle!</button>
+                <span>X:</span>
+                <input type="text" id="position-x"/>
+                <span>Y:</span>
+                <input type="text" id="position-y"/>
+                <span>Width:</span>
+                <input type="text" id="width"/>
+                <span>Height:</span>
+                <input type="text" id="height"/>
+            </div>
+            <div id="holder-circle">
+                <button id="create-circle">Click to create circle!</button>
+                <span>X:</span>
+                <input type="text"  id="center-x"/>
+                <span>Y:</span>
+                <input type="text"  id="center-y"/>
+                <span>Radius:</span>
+                <input type="text" id="radius"/>            
+            </div>
+            <div id="holder-line">
+                <button id="create-line">Click to create line!</button>
+                <span>X1:</span>
+                <input type="text" id="start-x"/>
+                <span>Y1:</span>
+                <input type="text" id="start-y" />
+                <span>X2:</span>
+                <input type="text" id="end-x" />
+                <span>Y2:</span>
+                <input type="text" id="end-y" />
+            </div>
+            <canvas id="the-canvas-a" width="300" height="350"></canvas>
+            <canvas id="the-canvas-b" width="300" height="350"></canvas>
+            <canvas id="the-canvas-c" width="300" height="350"></canvas>
+        </div>
+        <script src="scripts/ClassicalOOP.js" type="text/javascript"></script>
+    </body>
+</html>

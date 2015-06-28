@@ -1,0 +1,33 @@
+html, body, div, a{
+    margin: 0;
+    padding: 0;
+}
+html {
+    background-color: #4bb8f0;
+}
+#container{
+    width: 80%;
+    padding: 5%;
+    margin: 1% auto;
+}
+
+.button {
+    padding: 0px 5%;
+    margin: 1% 40%;
+    text-decoration: none;
+    border: 1px solid #a8a8a8;
+    font-size: 1.3em;
+    font-weight: bold;
+    border-radius: 20px;
+    background-color: palevioletred;
+    box-shadow: 2px 2px 15px 2px purple;
+    color: floralwhite;
+    text-transform: capitalize;
+}
+#create-circle, #create-line, #create-rect {
+    margin:  1%;
+    width: 20%;
+}
+input {
+    width: 10%;
+}

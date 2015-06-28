@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>AMD and RequireJS</title>
+        <link href="styles/amdAndRequire.css" rel="stylesheet" type="text/css"/>
+        <script src="bower_components/requirejs/require.js" data-main="scripts/app">
+        </script>
+    </head>
+    <body>
+        <div id="wrap">
+            <a href="index.html" class="button">&Lsh; back</a>
+            <div id="holder">
+                <input type="text" value="" id="input-section"/>
+                <button id="button-dropdown">&blacktriangledown;</button>
+                <div id="container">
+                </div>
+            </div>
+        </div>
+        <script id="person-template" type="x-handlebars-template">
+            {{#collection}}
+            <div class = "person-item" id = "person-item-{{id}}" >
+            <strong class = "person-name"> {{name}} </strong>
+            <p class="person-age">{{age}}</p >
+            <img src = "{{avatarUrl}}" width = "100px" / >
+            </div>
+            {{/collection}}
+        </script>
+    </body>
+</html>
